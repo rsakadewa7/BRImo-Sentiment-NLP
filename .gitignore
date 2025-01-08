@@ -1,0 +1,6 @@
+# Ignore everything in the deployment directory except best_model.h5 and tokenizer
+/deployment/*
+!/deployment/tokenizer/
+
+# Ignore last_model.h5 in all other directories
+**/last_model.h5
